@@ -1,2 +1,2 @@
-# simple application1
+# simple application
 CircleCI node.js example
