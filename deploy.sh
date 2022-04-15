@@ -7,6 +7,8 @@ pm2 stop simple_app
 #change directory into folder where application is downloaded
 cd SimpleApplication/
 #install application dependencies
-npm install 
+npm install
+echo $PRIVATE_KEY > privatekey.pem
+echo $SERVER > server.crt
 #start the application with the process name simple_app using pm2
 pm2 start ./bin/www --name simple_app
