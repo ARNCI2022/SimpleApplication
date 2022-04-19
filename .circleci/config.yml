@@ -60,7 +60,11 @@ jobs:
           command: docker cp ./privatekey.pem integration_app:/privatekey.pem; docker cp ./server.crt integration_app:/server.crt 
       - run:
           name: start-docker-container
-          command: docker start integration_app  
+          command: docker start integration_app 
+      - run:
+          name: run-zap-scan-against-container
+          command: CONTAINER_IP=$(docker inspect integration_app --format='{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}'); docker run -t owasp/zap2docker-stablezap-baseline.py -t https://$CONTAINER_IP:8443/ -p 8443  
+  
   deploy:
     docker:
       - image: circleci/node:10.16.3
