@@ -2,7 +2,7 @@
 #Check if theres instance running with the image name we are deploying
 CURRENT_INSTANCE=$(docker ps -a -q --filter ancestor="$IMAGE_NAME" --format="{{.ID}}")
 
-# If an instance does exist stop the instance
+#If an instance does exist stop the instance
 if [ "$CURRENT_INSTANCE" ]
 then
   docker rm $(docker stop $CURRENT_INSTANCE)
@@ -19,8 +19,7 @@ then
 fi
 
 #Create a container called node_app that is available on port 8443 from our docker image
-docker create -p 8443:8443 --name node_app $IMAGE_NAME
-
+docker create -P 8443:8443 --name node_app $IMAGE_NAME
 #Write the privacy key to a file
 echo $PRIVATE_KEY > privatekey.pem
 #Write the server key to a file
