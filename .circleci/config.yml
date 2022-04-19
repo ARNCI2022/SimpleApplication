@@ -51,7 +51,7 @@ jobs:
           command: docker push $IMAGE_NAME  
       - run:
           name: set-environment-variables
-          command: echo $SERVER > server.crt && echo $PRIVATE_KEY > privatekey.pem  && echo $CONTAINER_NAME > node_app
+          command: echo $SERVER > server.crt && echo $PRIVATE_KEY > privatekey.pem  
       - run:
           name: build-docker-image-for-integration-environment
           command: docker create -p 8443:8443 --name integration_app $IMAGE_NAME
@@ -71,5 +71,5 @@ jobs:
     steps:
       - run:
           name: deploy-application
-          command: ssh -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_PUBLIC_DNS "export SERVER=\"$SERVER\"; export IMAGE_NAME=\"$IMAGE_NAME\"; export CONTAINER_NAME=\"$CONTAINER_NAME\"; export PRIVATE_KEY=\"$PRIVATE_KEY\"; rm -rf SimpleApplication/;git clone https://github.com/ARNCI2022/SimpleApplication.git; source SimpleApplication/deploy.sh"
+          command: ssh -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_PUBLIC_DNS "export SERVER=\"$SERVER\"; export IMAGE_NAME=\"$IMAGE_NAME\"; export PRIVATE_KEY=\"$PRIVATE_KEY\"; rm -rf SimpleApplication/;git clone https://github.com/ARNCI2022/SimpleApplication.git; source SimpleApplication/deploy.sh"
   
