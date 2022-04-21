@@ -2,7 +2,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url(./movies\ \(1\).jpg)
+  background-color: #0d042b;
 }
 
 h1 {
@@ -20,18 +20,16 @@ a {
   color: #d9d5d5;
 }
 .container-1 {
-  color: #d7d4d4;
-  background-color: #0d042b;
+  color: #0d042b;
+  background-color: #d6d4db;
   align-content: space-between;
-  width: 70%;
-  height: 70%;
   margin: 2%;
+  display: flex;
+  float: left;
 }
 
 .container-2 {
-  color: #d7d4d4;
-  background-color: #0d042b;
+  color: #0d042b;
+  background-color: #d6d4db;
   align-content: space-between;
-  width: 70%;
-  height: 70%;
 }
