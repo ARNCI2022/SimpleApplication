@@ -17,23 +17,32 @@ h2 {
 }
 
 a {
-  color: #0d042b;
+  color: #d6d4db;
   text-decoration: none;
-  list-style: none;
+  cursor: pointer;
+  background-color: #0d042b;
+  padding: 15x 25px;
+  margin-left: 5px;
+  transition: 0.5s ease-in-out;
 }
+
+a:hover {
+  background-color: rgb(3, 71, 27);
+  transform: rotate(15deg);
+}
+
+li {
+  margin: 10px;
+}
+
 .container-1 {
   color: #0d042b;
   background-color: #d6d4db;
   align-content: space-between;
   margin: 2%;
+  width: 50%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.container-2 {
-  color: #0d042b;
-  background-color: #d6d4db;
-  align-content: space-between;
-  display: flex;
-  flex-direction: column;
-}
