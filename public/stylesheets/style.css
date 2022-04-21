@@ -17,7 +17,9 @@ h2 {
 }
 
 a {
-  color: #d9d5d5;
+  color: #0d042b;
+  text-decoration: none;
+  list-style: none;
 }
 .container-1 {
   color: #0d042b;
@@ -25,11 +27,13 @@ a {
   align-content: space-between;
   margin: 2%;
   display: flex;
-  float: left;
+  flex-direction: column;
 }
 
 .container-2 {
   color: #0d042b;
   background-color: #d6d4db;
   align-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
