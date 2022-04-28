@@ -1,11 +1,11 @@
 
 html {
-  background-color: #0d042b;
+  background-image: url("./movies.jpg");
 }
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url("./movies.jpg");
+  background-color: #0d042b;
 }
 
 h1 {
