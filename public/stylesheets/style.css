@@ -1,11 +1,9 @@
 
-html {
-  background-image: url("./movies.jpg");
-}
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #0d042b;
+  background-image: url("./movies.jpg");
 }
 
 h1 {
@@ -17,12 +15,12 @@ h1 {
 h2 {
   text-align: center;
   color: #d7d4d4;
-  margin: 1% 5%;
+  margin: 2% 5%;
 }
 h3 {
   text-align: center;
   color: #d7d4d4;
-  margin: 1% 5%;
+  margin: 2% 5%;
 }
 
 p {
@@ -30,9 +28,9 @@ p {
   text-align: center;
 }
 
-p a{
+.blue-link a{
   color: #d7d4d4;
-  text-align: center;
+
 }
 
 a {
