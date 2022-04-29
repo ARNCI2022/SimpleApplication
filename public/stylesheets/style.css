@@ -57,10 +57,10 @@ li {
 
 .container-1 {
   color: #0d042b;
-  background-color: #e0d5fe;
+  background-color: #cbbbf9;
   align-content: space-between;
   margin: 4%;
-  width: 44%;
+  width: 40%;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
@@ -77,11 +77,12 @@ h5 {
   color:#0d042b;
   font-weight: 700;
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 22px;
 }
 h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
+  margin-top: 15px;
 }
 
 .watch a {
