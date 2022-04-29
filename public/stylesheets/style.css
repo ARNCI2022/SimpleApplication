@@ -30,6 +30,7 @@ p {
 p a{
   background-color: #d7d4d4;
   color: #0d042b;
+  font-size: 10px;
 }
 
 a {
@@ -41,6 +42,7 @@ a {
   padding: 15px 25px;
   margin-left: 5px;
   transition: 0.5s ease-in-out;
+  font-size: 10px;
 }
 
 a:hover {
@@ -49,7 +51,8 @@ a:hover {
 }
 
 li {
-  margin: 40px;
+  margin: 40px 0px 40px 0px;
+  font-style: bold;
 }
 
 .container-1 {
@@ -69,7 +72,7 @@ li {
   color: #0d042b;
 }
 
-.watch {
+.watch p {
   color: #0d042b;
   margin-top: 60px;
 }
@@ -78,4 +81,5 @@ li {
   background-color: #0d042b;
   color: #d6d4db;
   margin-top: 60px;
+  font-size: 10px;
 }
