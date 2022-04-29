@@ -71,8 +71,10 @@ li {
 
 .watch p {
   color: #0d042b;
+  margin-top: 20px;
 }
 
 .watch a {
   background-color: #0d042b;
+  color: #d6d4db;
 }
