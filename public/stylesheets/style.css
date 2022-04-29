@@ -57,10 +57,10 @@ li {
 
 .container-1 {
   color: #0d042b;
-  background-color: #d6d4db;
+  background-color: #e0d5fe;
   align-content: space-between;
-  margin: 2%;
-  width: 46%;
+  margin: 4%;
+  width: 44%;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
@@ -77,9 +77,10 @@ h5 {
   color:#0d042b;
   font-weight: 700;
   margin-top: 50px;
+  font-size: 25px;
 }
 h4 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
 }
 
