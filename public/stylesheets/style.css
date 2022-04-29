@@ -72,12 +72,7 @@ li {
   color: #0d042b;
 }
 
-
-.container-1.watch {
-  color: #0d042b;
-}
-
-.watch p a {
+.watch a {
   background-color: #0d042b;
   color: #d6d4db;
   margin-top: 60px;
