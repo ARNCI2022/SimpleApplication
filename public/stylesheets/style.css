@@ -52,7 +52,7 @@ a:hover {
 li {
   margin: 40px;
   font-weight: 700;
-  align-content: center;
+  justify-content: center;
 }
 
 .container-1 {
@@ -83,6 +83,7 @@ h4 {
   font-weight: 700;
   margin-top: 30px;
   font-size: 22px;
+  text-decoration: underline;
 }
 
 .watch a {
