@@ -77,11 +77,11 @@ h5 {
   color:#0d042b;
   font-weight: 700;
   margin-top: 50px;
-  font-size: 22px;
 }
 h4 {
   font-weight: 700;
   margin-top: 30px;
+  font-size: 22px;
 }
 
 .watch a {
@@ -95,6 +95,8 @@ h4 {
   .container-1 {
     margin: 2%;
     width: 44%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   h5 a {
