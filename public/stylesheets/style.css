@@ -51,8 +51,8 @@ a:hover {
 }
 
 li {
-  margin: 40px 0px 40px 0px;
-  font-style: bold;
+  margin: 40px;
+  font-weight: 700;
 }
 
 .container-1 {
@@ -72,9 +72,9 @@ li {
   color: #0d042b;
 }
 
-.watch p {
+
+.container-1.watch {
   color: #0d042b;
-  margin-top: 60px;
 }
 
 .watch p a {
